@@ -8,119 +8,111 @@ console.log(a);
 var a = "Name"
 console.log(a);
 
-// // let name = "john";
-// // console.log(name);
-// // let name
+let name1 = "john";
+console.log(name1);
 
-// const pi = 3.14;
-// console.log(pi);
-// // const pi = 3.145
+const pi = 3.14;
+console.log(pi);
 
-// // Nan
+// // parseInt
 
-// let valueOne = 2;
-// let valueTwo = "a";
+let valueOne = 2;
+let valueTwo = "2";
 
-// console.log(valueOne + valueTwo);
-
-// console.log(valueOne + parseInt(valueTwo));
+console.log(valueOne + valueTwo);
+console.log(valueOne + parseInt(valueTwo));
 
 
-// const name = "John";
-// const age = 30;
-// const rating = 4.5;
-// const isCool = true;
-// const x = null;
-// var y;
+const name2 = "John";
+const age2 = 30;
+const rating = 4.5;
+const isCool = true;
+const x = null;
+var y;
 
-// console.log(typeof name);
-
-// console.log('My name is ' + name + ' and I am ' + age);
-// console.log(`My name is ${name} and I am ${age}`);
-
+console.log(typeof name);
+console.log('My name is ' + name2 + ' and I am ' + age2);
+console.log(`My name is ${name2} and I am ${age2}`);
 
 // // Array
 
-// arrayOne = ["john", 30, true, null, undefined]
-
-// console.log(arrayOne);
+arrayOne = ["john", 30, true, null, undefined]
+console.log(arrayOne);
 
 // // push
 
-// arrayOne.push("Apple");
-// console.log(arrayOne);
+arrayOne.push("Apple");
+console.log(arrayOne);
 
 // // pop
-// arrayOne.pop();
-// console.log(arrayOne);
+
+arrayOne.pop();
+console.log(arrayOne);
+
 // // unshift
 
-// arrayOne.unshift("Mango");
-// console.log(arrayOne);
+arrayOne.unshift("Mango");
+console.log(arrayOne);
 
-// console.log(arrayOne[0]);
+console.log(arrayOne[0]); //getting item with index
+arrayOne[3] = "banana" //push using index
+console.log(arrayOne);
 
-// arrayOne[3] = "banana"
-// console.log(arrayOne);
+console.log(arrayOne.length);
+//deleting using splice
+arrayOne.splice(3, 2);
+console.log(arrayOne);
 
-// console.log(arrayOne.length);
-// arrayOne.splice(3, 2);
-// console.log(arrayOne);
+//unstrict equal to and strict
+let valueOnee = "2"
+let valueTwoo = 2;
 
-
-// let valueOnee = "2"
-// let valueTwoo = 2;
-
-// console.log(valueOnee == valueTwoo);
-// console.log(valueOnee === valueTwoo);
+console.log(valueOnee == valueTwoo);
+console.log(valueOnee === valueTwoo); //if only value and dtata type is same
 
 
 // // Conditional Statements
 
-// // if
+// if
 
-// let value = 15;
+a = 15;
 
-// if (value >= 18) {
-//     console.log("You are Adult")
-// }
+if (value >= 18) {
+    console.log("You are Adult")
+ }
+ b = 16;
 
-// let valuee = 16;
-
-// if (valuee >= 18) {
-//     console.log("You are adult");
-// } else {
-//     console.log("You are a minor");
-// }
+if (b >= 18) {
+    console.log("You are adult");
+ } else {
+     console.log("You are a minor");
+ }
 
 // // ternary 
 
-// let age = 20;
+age = 20;
 
-// let type = (age >= 18) ? "Adult" : "Minor"
+let type = (age >= 18) ? "Adult" : "Minor"
+console.log(type);
 
-// console.log(type);
+// Function
 
-console.log("Function");
-
-function showSting() {
+function hi() {
    console.log("Hello World");
 }
 
-showSting();
+hi();
 
-var showString = function () {
+var hi = function () {
    console.log("Hello World");
 }
+hi();
 
-showSting();
 
-
-var showSting = () => {
+var hi = () => {
    console.log(" Arrow Function Hello World");
 }
-
-showSting();
+hi();
 
 
 // Map
