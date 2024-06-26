@@ -22,6 +22,13 @@ let valueTwo = "2";
 console.log(valueOne + valueTwo);
 console.log(valueOne + parseInt(valueTwo));
 
+// // String manipulationb
+str="heLlO"
+console.log(str);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.length);
+console.log(str.substring(2,4));
 
 const name2 = "John";
 const age2 = 30;
@@ -34,8 +41,11 @@ console.log(typeof name);
 console.log('My name is ' + name2 + ' and I am ' + age2);
 console.log(`My name is ${name2} and I am ${age2}`);
 
-// // Array
+// Symbol
+id=Symbol("id")
+console.log(id);
 
+// // Array
 arrayOne = ["john", 30, true, null, undefined]
 console.log(arrayOne);
 
@@ -63,6 +73,18 @@ console.log(arrayOne.length);
 arrayOne.splice(3, 2);
 console.log(arrayOne);
 
+// Object
+obj = {
+    name: "Habel",
+    age:19,
+    gender:"M",
+    address:{
+        city:" ",
+        houseNUM:123
+    }
+}
+console.log(obj);
+
 //unstrict equal to and strict
 let valueOnee = "2"
 let valueTwoo = 2;
@@ -70,6 +92,14 @@ let valueTwoo = 2;
 console.log(valueOnee == valueTwoo);
 console.log(valueOnee === valueTwoo); //if only value and dtata type is same
 
+// // Arithmetic Operators
+a=10
+b=2
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a**b);//exponent
 
 // // Conditional Statements
 
